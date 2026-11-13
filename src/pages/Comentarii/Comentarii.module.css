@@ -1,0 +1,57 @@
+.panou {
+  padding: 18px;
+}
+
+.antet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.antet h2 {
+  font-size: 1.05rem;
+}
+
+.inchide {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.inchide:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lista li {
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-size: 0.9rem;
+}
+
+.lista p {
+  margin: 4px 0 0;
+}
+
+.autor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 10px;
+  font-size: 0.82rem;
+}

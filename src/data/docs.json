@@ -1,0 +1,157 @@
+{
+  "sectiuni": [
+    {
+      "id": "boabe",
+      "titlu": "Boabe și prăjire",
+      "descriere": "De unde vine cafeaua, cum este procesată și ce se întâmplă cu boabele după prăjire.",
+      "icon": "☘"
+    },
+    {
+      "id": "preparare",
+      "titlu": "Metode de preparare",
+      "descriere": "Rețete și parametri pentru cele mai populare metode: de la espresso la cold brew.",
+      "icon": "☕"
+    },
+    {
+      "id": "echipament",
+      "titlu": "Echipament",
+      "descriere": "Ce unelte merită cumpărate, cum le alegi și cum le întreții în stare bună.",
+      "icon": "⚙"
+    },
+    {
+      "id": "privat",
+      "titlu": "Note private",
+      "descriere": "Rețetele și notițele interne ale baristului. Necesită activarea modului privat.",
+      "icon": "🔒",
+      "privat": true
+    }
+  ],
+  "pagini": [
+    {
+      "id": "arabica-robusta",
+      "titlu": "Arabica și Robusta",
+      "sectiune": "boabe",
+      "tag-uri": ["arabica", "origine", "gust"],
+      "continut": "Aproape toată cafeaua consumată în lume provine din două specii: Coffea arabica și Coffea canephora, cunoscută comercial ca Robusta. Arabica reprezintă aproximativ 60% din producția globală și crește la altitudini mari, între 1000 și 2200 de metri.\n\nArabica are un conținut mai mic de cofeină (în jur de 1,2%) și mai mult zahăr natural, ceea ce îi oferă o aciditate plăcută și note de fructe, flori sau ciocolată. Robusta conține aproape dublu de cofeină, este mai amară și mai rezistentă la dăunători, motiv pentru care este mai ieftină.\n\nÎn cafeneaua de specialitate se folosește aproape exclusiv Arabica. Robusta apare totuși în unele amestecuri italiene de espresso, unde aduce corp, crema mai densă și o amăreală intensă."
+    },
+    {
+      "id": "procesare",
+      "titlu": "Metode de procesare",
+      "sectiune": "boabe",
+      "tag-uri": ["procesare", "origine", "gust"],
+      "continut": "După recoltare, fructul de cafea (cireașa) trebuie îndepărtat de pe sămânță. Felul în care se face acest lucru influențează puternic gustul final din ceașcă.\n\nProcesarea spălată (washed) îndepărtează pulpa cu apă înainte de uscare și produce cafele curate, luminoase, cu aciditate clară. Procesarea naturală usucă cireașa întreagă la soare, iar zaharurile din fruct trec în boabă: rezultatul este dulce, cu note de fructe de pădure și vin.\n\nMetoda honey este un compromis: se îndepărtează coaja, dar o parte din mucilagiu rămâne pe boabă în timpul uscării. Cafelele honey au corp rotund și dulceață de caramel, fără intensitatea fermentată a celor naturale."
+    },
+    {
+      "id": "grade-prajire",
+      "titlu": "Gradele de prăjire",
+      "sectiune": "boabe",
+      "tag-uri": ["prăjire", "gust", "espresso"],
+      "continut": "Boabele verzi nu au aproape niciun gust de cafea. Aromele se formează în prăjitor, la temperaturi între 190 și 230 °C, prin reacția Maillard și caramelizarea zaharurilor.\n\nPrăjirea deschisă păstrează caracterul originii: aciditate vie, note florale și de citrice. Este preferată pentru metodele de filtru. Prăjirea medie echilibrează aciditatea cu dulceața și este cea mai versatilă.\n\nPrăjirea închisă aduce note de ciocolată amăruie, nuci prăjite și fum, dar acoperă diferențele dintre origini. Pentru espresso se aleg de obicei prăjiri medii spre închise, care se extrag mai ușor la presiune."
+    },
+    {
+      "id": "prospetime",
+      "titlu": "Prospețimea și odihna boabelor",
+      "sectiune": "boabe",
+      "tag-uri": ["prospețime", "prăjire", "depozitare"],
+      "continut": "Imediat după prăjire, boabele eliberează cantități mari de dioxid de carbon. Dacă sunt preparate prea devreme, gazul împiedică contactul uniform cu apa și extracția devine instabilă.\n\nDe aceea boabele au nevoie de o perioadă de odihnă: 3–7 zile pentru filtru și 7–14 zile pentru espresso. Supapa unidirecțională de pe pungă lasă gazul să iasă fără să permită intrarea oxigenului.\n\nFereastra optimă de consum este, în general, între o săptămână și o lună de la data prăjirii. Uită-te mereu după data prăjirii pe pungă, nu doar după data expirării."
+    },
+    {
+      "id": "depozitare",
+      "titlu": "Depozitarea corectă",
+      "sectiune": "boabe",
+      "tag-uri": ["depozitare", "prospețime"],
+      "continut": "Cei patru dușmani ai cafelei sunt oxigenul, lumina, căldura și umezeala. Un recipient opac, etanș, ținut într-un dulap răcoros este cea mai bună soluție pentru uzul zilnic.\n\nCumpără boabe întregi și macină-le chiar înainte de preparare. Cafeaua măcinată își pierde o mare parte din arome în primele 15–30 de minute, deoarece suprafața expusă aerului crește de sute de ori.\n\nFrigiderul nu este un loc potrivit: boabele absorb mirosuri și condensul le umezește. Congelarea funcționează doar pentru porții mici, sigilate, care nu se mai decongelează și recongelează."
+    },
+    {
+      "id": "espresso",
+      "titlu": "Espresso",
+      "sectiune": "preparare",
+      "tag-uri": ["espresso", "presiune", "extracție", "raport"],
+      "continut": "Espresso se obține forțând apă fierbinte (90–94 °C) prin cafea fin măcinată și compactată, la o presiune de aproximativ 9 bari. Rezultatul este o băutură concentrată, cu corp dens și un strat de cremă la suprafață.\n\nO rețetă de pornire: 18 g de cafea măcinată, 36 g de băutură în ceașcă (raport 1:2), timp de extracție între 25 și 30 de secunde. Cântărește atât doza, cât și băutura obținută; volumul în mililitri este înșelător din cauza cremei.\n\nDacă espresso-ul este acru și curge prea repede, macină mai fin. Dacă este amar, astringent și curge greu, macină mai grosier. Schimbă un singur parametru odată."
+    },
+    {
+      "id": "v60",
+      "titlu": "Filtru V60",
+      "sectiune": "preparare",
+      "tag-uri": ["filtru", "turnare", "raport", "măcinare"],
+      "continut": "V60 este un dripper conic cu nervuri spiralate și o singură gaură mare la bază. Viteza de curgere depinde aproape în întregime de tehnica de turnare și de mărimea măcinăturii, ceea ce îl face foarte expresiv, dar și pretențios.\n\nRețetă: 15 g de cafea măcinată mediu-fin, 250 g de apă la 93 °C. Clătește filtrul de hârtie, adaugă cafeaua și toarnă 40 g de apă pentru preinfuzie (blooming). După 40 de secunde, toarnă restul apei în cercuri lente, în două sau trei etape.\n\nTimpul total ar trebui să fie între 2:30 și 3:00 minute. O cafea apoasă indică o măcinătură prea grosieră, iar una amară și lentă indică una prea fină."
+    },
+    {
+      "id": "aeropress",
+      "titlu": "AeroPress",
+      "sectiune": "preparare",
+      "tag-uri": ["imersie", "presiune", "filtru"],
+      "continut": "AeroPress combină imersia cu o presiune ușoară, aplicată manual cu un piston. Este robust, ușor de curățat și ideal pentru călătorii.\n\nRețetă clasică: 15 g de cafea măcinată mediu, 230 g de apă la 85–90 °C. Amestecă de trei ori după ce adaugi apa, lasă la infuzat 1 minut și 30 de secunde, apoi apasă pistonul lent, timp de aproximativ 30 de secunde.\n\nMetoda inversată, cu aparatul întors invers, împiedică picurarea prematură și oferă control complet asupra timpului de contact. Există chiar și campionate mondiale dedicate exclusiv rețetelor de AeroPress."
+    },
+    {
+      "id": "french-press",
+      "titlu": "French Press",
+      "sectiune": "preparare",
+      "tag-uri": ["imersie", "măcinare", "raport"],
+      "continut": "French press este cea mai simplă metodă prin imersie: cafeaua stă direct în apă, iar o sită metalică o separă la final. Lipsa filtrului de hârtie lasă să treacă uleiurile, de unde corpul plin și textura catifelată.\n\nFolosește o măcinătură grosieră, asemănătoare cu sarea de mare, și un raport de 1:15 (de exemplu 30 g de cafea la 450 g de apă). Lasă la infuzat 4 minute, sparge crusta formată la suprafață și îndepărtează spuma.\n\nApasă sita ușor și toarnă imediat toată cafeaua. Dacă o lași în vas, extracția continuă și băutura devine amară."
+    },
+    {
+      "id": "cold-brew",
+      "titlu": "Cold Brew",
+      "sectiune": "preparare",
+      "tag-uri": ["rece", "imersie", "extracție"],
+      "continut": "Cold brew nu este cafea fierbinte răcită, ci cafea extrasă exclusiv cu apă rece, pe parcursul a 12–24 de ore. Temperatura scăzută extrage mai puțini acizi și compuși amari, rezultând o băutură dulce și catifelată.\n\nAmestecă 100 g de cafea măcinată grosier cu 1 litru de apă rece filtrată, acoperă recipientul și lasă-l la frigider. După infuzare, strecoară prin sită fină și apoi printr-un filtru de hârtie.\n\nConcentratul obținut se diluează cu apă, lapte sau gheață, de regulă în proporție de 1:1. Se păstrează la frigider până la două săptămâni."
+    },
+    {
+      "id": "rasnita",
+      "titlu": "Alegerea râșniței",
+      "sectiune": "echipament",
+      "tag-uri": ["măcinare", "extracție"],
+      "continut": "Râșnița este cea mai importantă investiție pentru cafeaua de acasă, mai importantă chiar decât espressorul. O măcinătură uniformă înseamnă că toate particulele se extrag în același ritm.\n\nRâșnițele cu lame (tip blender) taie boabele neuniform și produc atât praf, cât și bucăți mari. Alege întotdeauna o râșniță cu pietre (burr), fie conice, fie plate, care zdrobesc boabele între două suprafețe reglabile.\n\nPentru espresso ai nevoie de reglaj fin, în trepte foarte mici sau fără trepte. Pentru filtru contează mai mult uniformitatea în zona medie. Râșnițele manuale de calitate oferă rezultate excelente la un preț accesibil."
+    },
+    {
+      "id": "cantar",
+      "titlu": "Cântarul și raportul",
+      "sectiune": "echipament",
+      "tag-uri": ["raport", "extracție"],
+      "continut": "Lingurițele de cafea sunt o măsură imprecisă: două cafele diferite pot avea densități foarte diferite. Un cântar cu precizie de 0,1 g elimină această variabilă și face rețetele repetabile.\n\nRaportul exprimă câte grame de apă folosești pentru un gram de cafea. Pentru filtru, punctul de pornire este 1:16; pentru espresso, 1:2 între cafeaua uscată și băutura din ceașcă.\n\nCântarele dedicate pentru cafea au și cronometru integrat, utile pentru a urmări simultan cantitatea de apă turnată și timpul de extracție."
+    },
+    {
+      "id": "fierbator",
+      "titlu": "Fierbătorul cu gât de lebădă",
+      "sectiune": "echipament",
+      "tag-uri": ["turnare", "temperatură", "filtru"],
+      "continut": "Pentru metodele de turnare, precum V60 sau Chemex, controlul debitului de apă este esențial. Fierbătorul cu gât de lebădă are o țeavă lungă și subțire care permite o turnare lentă, precisă și constantă.\n\nModelele electrice cu termostat permit setarea exactă a temperaturii, de obicei între 85 și 96 °C, și o mențin pe parcursul preparării. Prăjirile deschise preferă apă mai fierbinte, iar cele închise apă puțin mai rece.\n\nUn fierbător obișnuit poate fi folosit în lipsă de altceva, dar turnarea va fi agitată și inegală, ceea ce duce la canale în patul de cafea și la o extracție neuniformă."
+    },
+    {
+      "id": "apa",
+      "titlu": "Calitatea apei",
+      "sectiune": "echipament",
+      "tag-uri": ["apă", "extracție", "gust"],
+      "continut": "O ceașcă de cafea filtru conține peste 98% apă, așa că gustul apei se regăsește direct în băutură. Mineralele din apă, în special magneziul și calciul, ajută la extragerea compușilor aromatici.\n\nApa prea moale, cum este cea distilată, produce cafea plată și acră. Apa foarte dură extrage greu și depune calcar în aparate. Ținta recomandată este o duritate totală în jur de 50–175 ppm.\n\nO cană filtrantă sau o apă îmbuteliată slab mineralizată sunt soluții simple. Evită apa cu miros puternic de clor, care se simte imediat în ceașcă."
+    },
+    {
+      "id": "intretinere",
+      "titlu": "Curățare și decalcifiere",
+      "sectiune": "echipament",
+      "tag-uri": ["curățare", "apă", "espresso"],
+      "continut": "Uleiurile de cafea se oxidează și devin rânced în câteva zile. Resturile rămase în portafiltru, în sită sau în râșniță transmit gusturi amare și neplăcute următoarelor cafele.\n\nLa espressor, clătește grupul după fiecare utilizare și fă o spălare inversă (backflush) cu detergent dedicat o dată pe săptămână. Râșnița se curăță periodic cu tablete speciale sau prin demontarea pietrelor.\n\nDecalcifierea depinde de duritatea apei: la apă dură, o dată pe lună; la apă filtrată, o dată la câteva luni. Folosește întotdeauna soluții recomandate de producătorul aparatului."
+    },
+    {
+      "id": "reteta-casei",
+      "titlu": "Rețeta espresso a casei",
+      "sectiune": "privat",
+      "tag-uri": ["espresso", "raport", "rețetă"],
+      "continut": "Amestecul casei: 70% Brazilia natural și 30% Etiopia spălat, prăjire medie. Odihna minimă este de 10 zile de la data prăjirii.\n\nParametri de lucru: doză 18,5 g, randament 40 g, timp 27–29 de secunde, temperatura grupului 93 °C. Preinfuzia este de 4 secunde la presiune redusă.\n\nPentru băuturile cu lapte se folosește aceeași rețetă, dar cu un randament mai scurt, de 36 g, ca să se simtă cafeaua prin lapte."
+    },
+    {
+      "id": "calibrare",
+      "titlu": "Calibrarea zilnică",
+      "sectiune": "privat",
+      "tag-uri": ["espresso", "măcinare", "extracție"],
+      "continut": "Calibrarea se face în fiecare dimineață, înainte de deschidere, deoarece umiditatea și vârsta boabelor schimbă comportamentul măcinăturii de la o zi la alta.\n\nPrimele două extracții se aruncă: ele încălzesc sistemul și curăță râșnița de resturile din ziua anterioară. Apoi se măsoară doza, randamentul și timpul, și se ajustează doar măcinătura.\n\nToate valorile se notează în caietul de calibrare, alături de data prăjirii lotului curent. Dacă timpul variază cu mai mult de 3 secunde în aceeași zi, se recalibrează."
+    },
+    {
+      "id": "furnizori",
+      "titlu": "Furnizori și comenzi",
+      "sectiune": "privat",
+      "tag-uri": ["origine", "prospețime"],
+      "continut": "Boabele pentru espresso se comandă săptămânal, luni, de la prăjitoria parteneră, cu livrare joi. Cantitatea standard este de 12 kg, ajustată în funcție de vânzările din săptămâna precedentă.\n\nCafelele pentru filtru se rotesc lunar și se aleg din oferta de origini unice. Se comandă câte 2 kg din fiecare, ca să rămână proaspete.\n\nStocul nu trebuie să depășească trei săptămâni de consum. Pungile mai vechi de 6 săptămâni de la prăjire se folosesc doar pentru cold brew."
+    }
+  ]
+}

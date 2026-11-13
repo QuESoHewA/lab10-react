@@ -1,0 +1,40 @@
+.formular {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 820px;
+  padding: 28px 30px;
+}
+
+.formular h1 {
+  font-size: 1.5rem;
+}
+
+.camp {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.camp span {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.camp textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.actiuni {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .formular {
+    padding: 20px 16px;
+  }
+}

@@ -1,0 +1,62 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 0.92rem;
+}
+
+.sectiune,
+.pagina {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.sectiune:hover,
+.pagina:hover {
+  background: var(--surface-2);
+}
+
+.sectiune {
+  font-weight: 700;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.grup {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pagini {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+  border-left: 2px solid var(--border);
+  margin-left: 12px;
+}
+
+.pagina {
+  color: var(--muted);
+}
+
+.activ,
+.activ:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.bifa {
+  flex-shrink: 0;
+  font-weight: 800;
+  color: var(--accent);
+}

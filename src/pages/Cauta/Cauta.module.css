@@ -1,0 +1,127 @@
+.filtre {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.input {
+  font-size: 1.05rem;
+  padding: 12px 14px;
+}
+
+.rand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.eticheta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.eticheta select {
+  min-width: 190px;
+  color: var(--text);
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.adaugaTag {
+  display: flex;
+  gap: 8px;
+}
+
+.reset {
+  margin-left: auto;
+}
+
+.rand button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.activi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+}
+
+.numar {
+  margin: 0 0 12px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.gol {
+  padding: 28px;
+  text-align: center;
+  color: var(--muted);
+}
+
+.rezultate {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rezultat {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 20px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.rezultat:hover {
+  border-color: var(--accent);
+}
+
+.rezultat strong {
+  font-size: 1.08rem;
+  color: var(--accent);
+}
+
+.sectiune {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.extras {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .rand {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .eticheta select {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .reset {
+    margin-left: 0;
+  }
+}

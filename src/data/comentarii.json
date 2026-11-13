@@ -1,0 +1,32 @@
+{
+  "boabe/arabica-robusta": [
+    { "autor": "Irina M.", "data": "2026-10-02", "text": "Nu știam că Robusta are aproape dublu de cofeină. Explică de ce unele espresso-uri mă țin treaz toată ziua!" },
+    { "autor": "Victor P.", "data": "2026-10-05", "text": "Ar fi util și un tabel cu principalele țări producătoare pentru fiecare specie." }
+  ],
+  "boabe/procesare": [
+    { "autor": "Ana C.", "data": "2026-09-18", "text": "Am încercat o Etiopia natural după ce am citit pagina și chiar are gust de afine." }
+  ],
+  "boabe/prospetime": [
+    { "autor": "Mihai R.", "data": "2026-10-11", "text": "Odihna de 10 zile pentru espresso a rezolvat problema mea cu extracțiile care curgeau neuniform." }
+  ],
+  "preparare/espresso": [
+    { "autor": "Elena D.", "data": "2026-09-30", "text": "Regula cu un singur parametru schimbat odată e cea mai importantă. Mulțumesc!" },
+    { "autor": "Sergiu T.", "data": "2026-10-03", "text": "Ce raport recomandați pentru un ristretto? Eu folosesc 1:1,5." },
+    { "autor": "Cristina L.", "data": "2026-10-04", "text": "@Sergiu 1:1 până la 1:1,5 e intervalul obișnuit, doar scurtezi și timpul." }
+  ],
+  "preparare/v60": [
+    { "autor": "Dan B.", "data": "2026-10-08", "text": "Clătirea filtrului chiar contează, gustul de hârtie dispare complet." }
+  ],
+  "preparare/cold-brew": [
+    { "autor": "Ioana S.", "data": "2026-08-14", "text": "Am făcut cold brew cu 16 ore de infuzare și a ieșit perfect pentru vară." }
+  ],
+  "echipament/rasnita": [
+    { "autor": "Mihai G.", "data": "2026-09-12", "text": "Am trecut de la o râșniță cu lame la una manuală cu pietre: diferența e uriașă." }
+  ],
+  "echipament/apa": [
+    { "autor": "Lucia V.", "data": "2026-10-20", "text": "După ce am început să folosesc cana filtrantă, cafeaua are mult mai multă dulceață." }
+  ],
+  "privat/calibrare": [
+    { "autor": "Șef de tură", "data": "2026-11-01", "text": "Nu uitați să notați și umiditatea din sală în caietul de calibrare." }
+  ]
+}

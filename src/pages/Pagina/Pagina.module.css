@@ -1,0 +1,126 @@
+.pagina {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 24px;
+  align-items: start;
+}
+
+.articol {
+  padding: 30px 34px;
+}
+
+.antet {
+  margin-bottom: 20px;
+}
+
+.sectiune {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.antet h1 {
+  margin: 6px 0 12px;
+  font-size: 2rem;
+}
+
+.taguri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.text {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  max-width: 70ch;
+}
+
+.actiuni {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 16px 0;
+  border-top: 1px solid var(--border);
+}
+
+.prevNext {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.vecin {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.vecin:hover {
+  border-color: var(--accent);
+}
+
+.vecin span {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.vecin strong {
+  color: var(--accent);
+}
+
+.dreapta {
+  text-align: right;
+  grid-column: 2;
+}
+
+.panou {
+  position: sticky;
+  top: 84px;
+}
+
+.panouGol {
+  padding: 18px;
+}
+
+.panouGol p {
+  margin: 0 0 12px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1100px) {
+  .pagina {
+    grid-template-columns: 1fr;
+  }
+
+  .panou {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .articol {
+    padding: 22px 18px;
+  }
+
+  .antet h1 {
+    font-size: 1.55rem;
+  }
+
+  .prevNext {
+    grid-template-columns: 1fr;
+  }
+
+  .dreapta {
+    grid-column: auto;
+  }
+}
